@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: slategray;
+  color: gold;
+}
+
+a:hover {
+  color: gold;
+}
